@@ -1,0 +1,103 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #a5f2c5;
+}
+
+header {
+	padding: 1em;
+	margin: 0 auto;
+	
+}
+
+body {
+	font-family: 'Poiret One', cursive;
+	overflow-x: hidden;
+	
+}
+
+
+
+h1 {
+	font-family: 'Krona One', sans-serif;
+	color: #009688;
+	display: inline;
+	font-weight: 400;
+	line-height: 1;
+	margin-left: 38px;
+	padding: 0;
+	font-size: 3em;
+}
+
+h2 {
+	font-family: 'Krona One', sans-serif;
+	font-size: 10em;
+	margin-left: 27px;
+    margin-top: auto;
+	padding: 0;
+	line-height: 0.85;
+	color: #ff3d00;
+	
+}
+
+h3 {
+	font-family: 'Krona One', sans-serif;
+	color: #009688;
+	font-size: 19px;
+    position: absolute;
+    top: 8em;
+    left: -6em;
+    transform: rotate(270deg);
+    
+}
+
+h4 {
+	font-family: 'Krona One', sans-serif;
+	color: #ff7700;
+	font-size: 20px;
+}
+
+section {
+	max-width: 40em;
+	margin: 0 auto;
+	padding: 1em 0;
+	transition: all 0.5s ease;
+	filter: blur(3px)
+}
+section:nth-child(1) {
+	transform: scale(1);
+	
+}
+section:nth-child(2) {
+	transform: scale(1);
+}
+section:nth-child(3) {
+	transform: scale(1);
+}
+section:nth-child(4) {
+	transform: scale(1);
+}
+section:nth-child(5) {
+	transform: scale(1);
+}
+section:nth-child(6) {
+	transform: scale(1);
+}
+
+section:hover {
+	transform: rotate(0) scale(1.5) translate(0);
+	filter:blur(0);
+}
+
+
+
+
+
+
+
+
+
